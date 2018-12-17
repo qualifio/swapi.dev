@@ -34,7 +34,7 @@ We want to know if you can:
 ## Final result
 Your app should works as the following:
 ```bash
-node index.js 6
-28820
+$ node index.js 6
+> 24620
 ```
 
