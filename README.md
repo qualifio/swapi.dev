@@ -4,19 +4,16 @@ DeathStar simple exercice using Star Wars API [https://swapi.co/](https://swapi.
 
 ## Goal
 
-The main objective of the exercise is to compute the total diameter of the planets **without mountains and with a water surface** of a given film ID.
+The main objectif of the exercice is to provide the total diameter of the planets **With mountains and with a water surface** of a provided film.
 
 For example, if we have the following data from SWAPI:
 
 ```
-In the Film #6 there are 3 planets that have mountains and a water surface.
+In the Film #6 there are 2 planets that have mountains and a water surface (> 0).
 - Alderaan, diameter: 12500
 - Naboo, diameter: 12120
-- Mustafar, diameter: 4200
-```
-The output should be:
-```
-Total diameter: 28820
+
+Total diameter: 24620
 ```
 
 We want to know if you can:
