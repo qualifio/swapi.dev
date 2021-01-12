@@ -1,38 +1,38 @@
 # A Star Wars NodeJS Exercice
-DeathStar simple exercice using Star Wars API [https://swapi.co/](https://swapi.co/)
-
+This exercise is using the following Star Wars API: [https://swapi.dev/](https://swapi.dev/)
 
 ## Goal
 
-The main objectif of the exercice is to provide the total diameter of the planets **With mountains and with a water surface** of a provided film.
+The main target is to provide the total diameter of the planets **with mountains and with a water surface** for a specific film.
 
-For example, if we have the following data from SWAPI:
-
+For example:
 ```
-In the Film #6 there are 2 planets that have mountains and a water surface (> 0).
+In Film #6 there are 2 planets that have mountains and a water surface (> 0).
 - Alderaan, diameter: 12500
 - Naboo, diameter: 12120
-
 Total diameter: 24620
 ```
 
 We want to know if you can:
 
-* Consume and manipulate API data
-* Optimize the algorithm
-* Send simultaneous/concurrent calls
-* Manipulate the received data
-* How you structure the flow
-
+* Consume and manipulate data
+* Send concurrent calls
+* Manipulate received data
+* Structure your work flow
 
 ## Instructions
 
-* The application should be a simple NodeJS script that accepts an argument which would be the film id. (use process.argv)
-* You should catch errors if swapi is down.
-* It should print the total diameter at the end.
+* The application should be a CLI.
+* The application should accept the ${filmId} as only entry point parameter. 
+* The application should catch any error. 
+* The application should print the sum of all diameters of concerned planets.
+* The application should use npm and not yarn.
+
+## Note
+There are a lot of possibilities to solve this exercise but feel free to show us what you can do and what you are worth.
 
 ## Final result
-Your app should works as the following:
+Your app should work as the following:
 ```bash
 $ node index.js 6
 > 24620

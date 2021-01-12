@@ -1,13 +1,13 @@
 {
-  "name": "swapi_exercice",
+  "name": "@qualifio/swapi.dev",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Joao",
-  "license": "ISC",
+  "private": true,
+  "license": "UNLICENSED",
   "dependencies": {
   }
 }
